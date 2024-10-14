@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <script src="../ace/assets/js/jquery-1.10.2.min.js"></script>
+    <script src="../script/jquery.json-2.3.js"></script>
+    <script src="../plupload-3.1.5/js/plupload.full.min.js"></script>
+    <script src="../plupload-3.1.5/js/jquery.plupload.queue/jquery.plupload.queue.min.js"></script>
+    <link href="../ace/assets/css/ace.min.css" rel="stylesheet" />
+    <link href="../ace/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="index.js"></script>
+    <script text="text/javascript" src="administrantor.js" charset="gbk" ></script>
+    <script text="text/javascript" src="admimpage.js" charset="gbk"></script>
+
+    <style>
+        /* 表格样式 */
+        table#key {
+            width: 75%;
+            border-collapse: collapse;
+            margin-bottom: 1em;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        /* 输入框样式 */
+        input#newpwd {
+            width: 69%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* 按钮样式 */
+        button#psw {
+            width: 75%;
+            background-color: #4CAF50; /* 绿色背景 */
+            color: white; /* 文字颜色 */
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer; /* 改变鼠标指针形状 */
+        }
+
+            /* 鼠标悬停在按钮上时改变背景色 */
+            button#psw:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
+<body>
+    <div class="outer3 outer4 outer6">
+        <div class="list06">
+            <div class="list06left list06left">
+                <h4 class="h4">
+                    个人中心&nbsp;&nbsp;admin
+                </h4>
+            </div>
+            <div class="list06right list06right licon"id="nowposition">
+                <span class="active">当前位置：首页 > 管理员中心</span><!--class="a13"-->
+            </div>
+        </div>
+
+        <div class="list_main">
+            <div class="list_center_main">
+                <div>
+                    <table id="key">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <!--<td></td>-->
+                        </tr>
+                    </table>
+                </div><br />
+                <div>
+                    新密码：
+                    <input id="newpwd" type="password" />
+                    <button id="psw">提交</button>
+                </div>
+                <br />
+                <br />
+                <!-- 文章列表 -->
+                <div class="article-list">
+                    <ul id="personid">
+                        <li>
+                            <dl>
+                                <dt class="messdt"></dt>
+                                <dd>
+                                    <a href="#" class="title03 hovercolor"></a>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--记录数-->
+                <div class="data_info" id="ulinfo2"></div>
+                <!--页码-->
+                <div class="pageing">
+                    <ul id="ulinfo3" class="page">
+                        <li><a></a></li>
+                        <li><a class="cur"></a></li>
+                        <li><span>...</span></li>
+                        <li><a></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+ 
+</body>
+</html>

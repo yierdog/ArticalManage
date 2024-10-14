@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="finalModelStoreContainer" CdmEntityContainer="finalEntities1">
+    <EntitySetMapping Name="answer">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.answer)">
+        <MappingFragment StoreEntitySet="answer">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="contment" ColumnName="contment" />
+          <ScalarProperty Name="comment_author" ColumnName="comment_author" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="comment_id" ColumnName="comment_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="concern">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.concern)">
+        <MappingFragment StoreEntitySet="concern">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="author" ColumnName="author" />
+          <ScalarProperty Name="con" ColumnName="con" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="taking">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.taking)">
+        <MappingFragment StoreEntitySet="taking">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="cont" ColumnName="cont" />
+          <ScalarProperty Name="comment_author" ColumnName="comment_author" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="time" ColumnName="time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user_table">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.user_table)">
+        <MappingFragment StoreEntitySet="user_table">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="privilege" ColumnName="privilege" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="filename">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.filename)">
+        <MappingFragment StoreEntitySet="filename">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="file_name" ColumnName="file_name" />
+          <ScalarProperty Name="newfilename" ColumnName="newfilename" />
+          <ScalarProperty Name="uploadpath" ColumnName="uploadpath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="code1">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.code1)">
+        <MappingFragment StoreEntitySet="code1">
+          <ScalarProperty Name="ArticleID" ColumnName="ArticleID" />
+          <ScalarProperty Name="ArticleTitle" ColumnName="ArticleTitle" />
+          <ScalarProperty Name="ArticleContent" ColumnName="ArticleContent" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="filename" ColumnName="filename" />
+          <ScalarProperty Name="image" ColumnName="image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="menus">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.menus)">
+        <MappingFragment StoreEntitySet="menus">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="title" ColumnName="title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

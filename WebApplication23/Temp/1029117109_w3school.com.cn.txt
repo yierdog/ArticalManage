@@ -1,0 +1,114 @@
+HTML
+1、链接：<a href="http://www.w3school.com.cn">This is a link</a>
+	使用 Target 属性,下面的这行会在新窗口打开文档:target="_blank"
+2、图像：<img src="w3school.jpg" width="104" height="142" />
+3、居中排列标题：<h1 text-align="center">
+
+样式：
+4、背景颜色：<body style="background-color:yellow">
+                      <h1 style="background-color:red">This is a heading</h1>
+5、字体（font-family）、颜色（color）、尺寸(font-size)：
+                                 <p style="font-family:arial;color:red;font-size:20px;">A paragraph.</p>
+6、创建水平线：<hr />
+7、换行：<br />
+
+引用：
+8、短引用（引号）：<q>  </q>
+9、长引用：<blockquote >  </blockquote>
+10、缩略词（缩写或首字母缩略语）：<abbr>  </abbr>
+                                                        <abbr title="World Health Organization">WHO</abbr>
+11、定义项目或缩写的定义：<dfn> </dfn>
+                                           <dfn title="World Health Organization">WHO</dfn>
+12、文档或文章的联系信息:<address>
+                                          Written by Bill Gates.<br> 
+			Visit us at:<br>
+			Example.com<br>
+			Box 564, Disneyland<br>
+			USA
+			</address>
+
+13、定义著作的标题:<cite>The Scream</cite>
+14、首行缩进2字符：<p style= "text-indent:2em">
+
+
+
+
+
+
+JS
+ 1、<script> 与 </script> 标签之间
+function myFunction()
+{
+    document.getElementById("demo").innerHTML="我的第一个 JavaScript 函数";
+}
+
+getElementById：获取id
+使用 "id" 属性来标识 HTML 元素，并 innerHTML 来获取或插入元素内容；
+2、使用外部文件，请在 <script> 标签的 "src" 属性中设置该 .js 文件：
+<body>
+<script src="myScript.js"></script>
+</body>
+3、在标签中填写 onclick 事件调用函数时，不是 onclick=函数名， 而是 onclick=函数名+()；
+4、外部 javascript 文件不使用 <script> 标签，直接写 javascript 代码；
+5、HTML 输出流中使用 document.write，相当于添加在原有html代码中添加一串html代码。而如果在文档加载后使用（如使用函数），会覆盖整个文档；
+6、JavaScript 显示数据：
+	 window.alert() 弹出警告框；
+	document.write() 方法将内容写到 HTML 文档中；
+	 innerHTML 写入到 HTML 元素；
+	 console.log() 写入到浏览器的控制台
+7、JavaScript 字面量：
+	数字（Number）字面量 可以是整数或者是小数，或者是科学计数(e)；
+	字符串（String）字面量 可以使用单引号或双引号；
+8、JavaScript 变量：
+	var 来定义变量， 使用等号来为变量赋值；
+	变量必须以字母开头
+	变量也能以 $ 和 _ 符号开头
+	变量名称对大小写敏感（y 和 Y 是不同的变量）
+9、JavaScript 数据类型：
+	值类型(基本类型)：字符串（String）、数字(Number)、布尔(Boolean)、空（Null）、未定义（Undefined）、Symbol。
+	引用数据类型（对象类型）：对象(Object)、数组(Array)、函数(Function)，还有两个特殊的对象：正则（RegExp）和日期（Date）
+	数组：var cars=new Array("Saab","Volvo","BMW");
+	对象：var person={firstname:"John", lastname:"Doe", id:5566};
+	对象属性有两种寻址方式：name=person.lastname;name=person["lastname"];
+
+
+
+
+使用js编程小结：
+a.创建js函数
+<script type="text/javascript">  
+     function f()
+     {…}
+   </script>
+带参数和返回值的js函数
+<script type="text/javascript">  
+     function f(a)
+     {…
+       Var result=…
+       Return result;
+}
+   </script>
+
+b.调用js函数
+<input id="login" type="button" value="注册" onclick="f()" />
+
+c.js 获取 html <input>标签中的值：
+var un=document.getElementById("userName").value;
+
+js 获取 html <div>标签中的值：
+var info=document.getElementById("info").innerHTML;
+
+js 设置 html <div>标签中的值：
+document.getElementById("info").innerHTML="错误提示"
+
+js 获取字符串变量长度：
+var name="12345";
+var n=name.length;
+
+js 设置 html <div>标签中的样式：
+document.getElementById("info").style.color="yellow";
+
+
+str = str +"<tr>"+'<td>'+(i+1)+"</td>"+'<td>'+(arr[i])+"</tr>"
+
+

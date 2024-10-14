@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="finalModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="finalModelStoreContainer">
+    <EntitySet Name="answer" EntityType="finalModel.Store.answer" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="concern" EntityType="finalModel.Store.concern" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="taking" EntityType="finalModel.Store.taking" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="user_table" EntityType="finalModel.Store.user_table" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="filename" EntityType="finalModel.Store.filename" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="code1" EntityType="finalModel.Store.code1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="menus" EntityType="finalModel.Store.menus" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="answer">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="contment" Type="varchar(max)" Nullable="true" />
+    <Property Name="comment_author" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="time" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="comment_id" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="concern">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="author" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="con" Type="varchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="taking">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cont" Type="varchar(max)" Nullable="false" />
+    <Property Name="comment_author" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="title" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="time" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="user_table">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="password" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="role" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="privilege" Type="varchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="filename">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="varchar(max)" Nullable="false" />
+    <Property Name="file_name" Type="varchar(max)" Nullable="true" />
+    <Property Name="newfilename" Type="varchar(max)" Nullable="true" />
+    <Property Name="uploadpath" Type="varchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="code1">
+    <Key>
+      <PropertyRef Name="ArticleID" />
+    </Key>
+    <Property Name="ArticleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ArticleTitle" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="ArticleContent" Type="varchar(max)" Nullable="true" />
+    <Property Name="Author" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="type" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="time" Type="datetime" Nullable="true" />
+    <Property Name="filename" Type="varchar(max)" Nullable="true" />
+    <Property Name="image" Type="varchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="menus">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="url" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="title" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+</Schema>

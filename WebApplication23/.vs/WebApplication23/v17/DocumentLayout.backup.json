@@ -1,0 +1,634 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|d:\\\u684C\u9762\\net framework\\webapplication23\\page\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\user.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\user.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\admimpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\admimpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\admin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\admin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\up.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\up.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\adminperson.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\adminperson.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\administrantor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\administrantor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\server\\articlemanage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:server\\articlemanage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articlelist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\articlelist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\server\\up.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:server\\up.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\server\\articlemanage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:server\\articlemanage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleinfo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\articleinfo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\publish.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\publish.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\publi.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\publi.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\artical.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\artical.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articallist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\articallist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\newslist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\newslist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\all_artical.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\all_artical.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\upda.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\upda.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articlelist.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\articlelist.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleinfo.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\articleinfo.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\artlist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\artlist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\ace\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:ace\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\search.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\search.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\news.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\news.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articlenew.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\articlenew.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleeditor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:page\\articleeditor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\ace\\tables.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:ace\\tables.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\ace\\jqgrid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:ace\\jqgrid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\ace\\form-elements.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:ace\\form-elements.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|D:\\\u684C\u9762\\NET Framework\\WebApplication23\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7FB3DE8A-5BF0-47FC-B705-E50DA8F3CA7C}|WebApplication23.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "admin.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\admin.html",
+              "RelativeDocumentMoniker": "page\\admin.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\admin.html",
+              "RelativeToolTip": "page\\admin.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-30T08:27:09.478Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\index.html",
+              "RelativeDocumentMoniker": "page\\index.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\index.html",
+              "RelativeToolTip": "page\\index.html",
+              "ViewState": "AgIAAG8AAAAAAAAAAADwv/AAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-20T08:22:00.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "up.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\up.js",
+              "RelativeDocumentMoniker": "page\\up.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\up.js",
+              "RelativeToolTip": "page\\up.js",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-11T13:22:00.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "register.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\register.js",
+              "RelativeDocumentMoniker": "page\\register.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\register.js",
+              "RelativeToolTip": "page\\register.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-16T15:08:26.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\index.js",
+              "RelativeDocumentMoniker": "page\\index.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\index.js",
+              "RelativeToolTip": "page\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-22T14:39:06.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "admimpage.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\admimpage.js",
+              "RelativeDocumentMoniker": "page\\admimpage.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\admimpage.js",
+              "RelativeToolTip": "page\\admimpage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-16T06:45:05.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "administrantor.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\administrantor.js",
+              "RelativeDocumentMoniker": "page\\administrantor.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\administrantor.js",
+              "RelativeToolTip": "page\\administrantor.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-30T09:32:57.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "user.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\user.html",
+              "RelativeDocumentMoniker": "page\\user.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\user.html",
+              "RelativeToolTip": "page\\user.html",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwC0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-30T13:37:21.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "adminperson.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\adminperson.html",
+              "RelativeDocumentMoniker": "page\\adminperson.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\adminperson.html",
+              "RelativeToolTip": "page\\adminperson.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-06T09:30:42.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "articleInfo.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleInfo.js",
+              "RelativeDocumentMoniker": "page\\articleInfo.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleInfo.js",
+              "RelativeToolTip": "page\\articleInfo.js",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwDoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-20T08:44:04.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "login.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\login.js",
+              "RelativeDocumentMoniker": "page\\login.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\login.js",
+              "RelativeToolTip": "page\\login.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-15T10:39:59.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ArticleManage.aspx",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\server\\ArticleManage.aspx",
+              "RelativeDocumentMoniker": "server\\ArticleManage.aspx",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\server\\ArticleManage.aspx",
+              "RelativeToolTip": "server\\ArticleManage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-12T11:53:32.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ArticleManage.aspx.cs",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\server\\ArticleManage.aspx.cs",
+              "RelativeDocumentMoniker": "server\\ArticleManage.aspx.cs",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\server\\ArticleManage.aspx.cs",
+              "RelativeToolTip": "server\\ArticleManage.aspx.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAMwLgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:48:04.91Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "up.aspx.cs",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\server\\up.aspx.cs",
+              "RelativeDocumentMoniker": "server\\up.aspx.cs",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\server\\up.aspx.cs",
+              "RelativeToolTip": "server\\up.aspx.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T12:12:16.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "articleList.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleList.js",
+              "RelativeDocumentMoniker": "page\\articleList.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleList.js",
+              "RelativeToolTip": "page\\articleList.js",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAEQBAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-06T03:19:46.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\Model1.edmx",
+              "RelativeDocumentMoniker": "Model1.edmx",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-09T09:56:53.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "publish.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\publish.js",
+              "RelativeDocumentMoniker": "page\\publish.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\publish.js",
+              "RelativeToolTip": "page\\publish.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-13T08:57:00.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "publi.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\publi.html",
+              "RelativeDocumentMoniker": "page\\publi.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\publi.html",
+              "RelativeToolTip": "page\\publi.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-30T09:07:49.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "login.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\login.html",
+              "RelativeDocumentMoniker": "page\\login.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\login.html",
+              "RelativeToolTip": "page\\login.html",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-15T10:37:42.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "articallist.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articallist.js",
+              "RelativeDocumentMoniker": "page\\articallist.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articallist.js",
+              "RelativeToolTip": "page\\articallist.js",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAkwEwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-15T16:05:34.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\css\\style.css",
+              "RelativeDocumentMoniker": "css\\style.css",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\css\\style.css",
+              "RelativeToolTip": "css\\style.css",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-16T12:52:51.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "artical.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\artical.html",
+              "RelativeDocumentMoniker": "page\\artical.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\artical.html",
+              "RelativeToolTip": "page\\artical.html",
+              "ViewState": "AQIAAEgAAAAAAAAAAADwv0kAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-22T03:34:16.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "newslist.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\newslist.js",
+              "RelativeDocumentMoniker": "page\\newslist.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\newslist.js",
+              "RelativeToolTip": "page\\newslist.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-15T15:44:02.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "all_artical.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\all_artical.html",
+              "RelativeDocumentMoniker": "page\\all_artical.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\all_artical.html",
+              "RelativeToolTip": "page\\all_artical.html",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-30T09:16:21.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "upda.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\upda.html",
+              "RelativeDocumentMoniker": "page\\upda.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\upda.html",
+              "RelativeToolTip": "page\\upda.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-30T09:12:13.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "articleList.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleList.html",
+              "RelativeDocumentMoniker": "page\\articleList.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleList.html",
+              "RelativeToolTip": "page\\articleList.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-16T06:49:06.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "register.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\register.html",
+              "RelativeDocumentMoniker": "page\\register.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\register.html",
+              "RelativeToolTip": "page\\register.html",
+              "ViewState": "AQIAAEsAAAAAAAAAAADwv1UAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-16T15:03:08.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "articleInfo.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleInfo.html",
+              "RelativeDocumentMoniker": "page\\articleInfo.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleInfo.html",
+              "RelativeToolTip": "page\\articleInfo.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-16T07:10:45.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "artlist.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\artlist.js",
+              "RelativeDocumentMoniker": "page\\artlist.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\artlist.js",
+              "RelativeToolTip": "page\\artlist.js",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-15T13:58:19.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\ace\\index.html",
+              "RelativeDocumentMoniker": "ace\\index.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\ace\\index.html",
+              "RelativeToolTip": "ace\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-30T08:12:34.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "news.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\news.html",
+              "RelativeDocumentMoniker": "page\\news.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\news.html",
+              "RelativeToolTip": "page\\news.html",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAACYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-11T13:02:51.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "search.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\search.html",
+              "RelativeDocumentMoniker": "page\\search.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\search.html",
+              "RelativeToolTip": "page\\search.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-11T13:23:47.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "articleNew.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleNew.js",
+              "RelativeDocumentMoniker": "page\\articleNew.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleNew.js",
+              "RelativeToolTip": "page\\articleNew.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-30T12:34:46.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "articleEditor.js",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleEditor.js",
+              "RelativeDocumentMoniker": "page\\articleEditor.js",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\page\\articleEditor.js",
+              "RelativeToolTip": "page\\articleEditor.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-20T08:44:58.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "jqgrid.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\ace\\jqgrid.html",
+              "RelativeDocumentMoniker": "ace\\jqgrid.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\ace\\jqgrid.html",
+              "RelativeToolTip": "ace\\jqgrid.html",
+              "ViewState": "AQIAAGAEAAAAAAAAAAAAwHMEAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-30T13:02:40.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "tables.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\ace\\tables.html",
+              "RelativeDocumentMoniker": "ace\\tables.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\ace\\tables.html",
+              "RelativeToolTip": "ace\\tables.html",
+              "ViewState": "AQIAAIICAAAAAAAAAAAAwOYCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-30T13:44:24.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "form-elements.html",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\ace\\form-elements.html",
+              "RelativeDocumentMoniker": "ace\\form-elements.html",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\ace\\form-elements.html",
+              "RelativeToolTip": "ace\\form-elements.html",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-30T13:28:08.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\\u684C\u9762\\NET Framework\\WebApplication23\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAADAAAAAAAAAAAADwv0QAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-23T12:42:10.331Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

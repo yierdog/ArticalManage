@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="finalModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="finalModelStoreContainer">
+    <EntitySet Name="answer" EntityType="finalModel.Store.answer" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="concern" EntityType="finalModel.Store.concern" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="taking" EntityType="finalModel.Store.taking" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="user_table" EntityType="finalModel.Store.user_table" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="filename" EntityType="finalModel.Store.filename" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="code1" EntityType="finalModel.Store.code1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="menus" EntityType="finalModel.Store.menus" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="answer">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="contment" Type="varchar(max)" Nullable="true" />
+    <Property Name="comment_author" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="time" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="comment_id" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="concern">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="author" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="con" Type="varchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="taking">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cont" Type="varchar(max)" Nullable="false" />
+    <Property Name="comment_author" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="title" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="time" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="user_table">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="password" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="role" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="privilege" Type="varchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="filename">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="varchar(max)" Nullable="false" />
+    <Property Name="file_name" Type="varchar(max)" Nullable="true" />
+    <Property Name="newfilename" Type="varchar(max)" Nullable="true" />
+    <Property Name="uploadpath" Type="varchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="code1">
+    <Key>
+      <PropertyRef Name="ArticleID" />
+    </Key>
+    <Property Name="ArticleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ArticleTitle" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="ArticleContent" Type="varchar(max)" Nullable="true" />
+    <Property Name="Author" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="type" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="time" Type="datetime" Nullable="true" />
+    <Property Name="filename" Type="varchar(max)" Nullable="true" />
+    <Property Name="image" Type="varchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="menus">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="url" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="title" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="finalModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="answer">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="contment" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="comment_author" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="time" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="comment_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="concern">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="author" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="con" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="taking">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="cont" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="comment_author" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="time" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="user_table">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="role" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="privilege" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="finalEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="answer" EntityType="Self.answer" />
+          <EntitySet Name="concern" EntityType="Self.concern" />
+          <EntitySet Name="taking" EntityType="Self.taking" />
+          <EntitySet Name="user_table" EntityType="Self.user_table" />
+          <EntitySet Name="filename" EntityType="finalModel.filename" />
+          <EntitySet Name="code1" EntityType="finalModel.code1" />
+          <EntitySet Name="menus" EntityType="finalModel.menus" />
+        </EntityContainer>
+        <EntityType Name="filename">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="file_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="newfilename" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="uploadpath" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="code1">
+          <Key>
+            <PropertyRef Name="ArticleID" />
+          </Key>
+          <Property Name="ArticleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ArticleTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ArticleContent" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Author" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="time" Type="DateTime" Precision="3" />
+          <Property Name="filename" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="image" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="menus">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="finalModelStoreContainer" CdmEntityContainer="finalEntities1">
+    <EntitySetMapping Name="answer">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.answer)">
+        <MappingFragment StoreEntitySet="answer">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="contment" ColumnName="contment" />
+          <ScalarProperty Name="comment_author" ColumnName="comment_author" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="comment_id" ColumnName="comment_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="concern">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.concern)">
+        <MappingFragment StoreEntitySet="concern">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="author" ColumnName="author" />
+          <ScalarProperty Name="con" ColumnName="con" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="taking">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.taking)">
+        <MappingFragment StoreEntitySet="taking">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="cont" ColumnName="cont" />
+          <ScalarProperty Name="comment_author" ColumnName="comment_author" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="time" ColumnName="time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user_table">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.user_table)">
+        <MappingFragment StoreEntitySet="user_table">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="privilege" ColumnName="privilege" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="filename">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.filename)">
+        <MappingFragment StoreEntitySet="filename">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="file_name" ColumnName="file_name" />
+          <ScalarProperty Name="newfilename" ColumnName="newfilename" />
+          <ScalarProperty Name="uploadpath" ColumnName="uploadpath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="code1">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.code1)">
+        <MappingFragment StoreEntitySet="code1">
+          <ScalarProperty Name="ArticleID" ColumnName="ArticleID" />
+          <ScalarProperty Name="ArticleTitle" ColumnName="ArticleTitle" />
+          <ScalarProperty Name="ArticleContent" ColumnName="ArticleContent" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="filename" ColumnName="filename" />
+          <ScalarProperty Name="image" ColumnName="image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="menus">
+      <EntityTypeMapping TypeName="IsTypeOf(finalModel.menus)">
+        <MappingFragment StoreEntitySet="menus">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="title" ColumnName="title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

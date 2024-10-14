@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <script src="../ace/assets/js/jquery-1.10.2.min.js"></script>
+    <script src="../script/jquery.json-2.3.js"></script>
+    <script src="../plupload-3.1.5/js/plupload.full.min.js"></script>
+    <script src="../plupload-3.1.5/js/jquery.plupload.queue/jquery.plupload.queue.min.js"></script>
+    <script src="publish.js"></script>
+    <script src="index.js"></script>
+    <script src="up.js"></script>
+    <script src="articleList.js"></script>
+    <link href="../ace/assets/css/ace.min.css" rel="stylesheet" />
+    <link href="../ace/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+/*        .up {
+            font-weight: 400;
+            font-size: 20px;
+            width: 700px;
+            height: 400px;
+            color: #008FD8
+        }
+
+        textarea {
+            border: 1px dotted #666;
+            width: 500px;
+        }
+
+        input {
+            border: 1px dotted #666;
+            width: 500px;
+        }*/
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        #publish {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        #title, #content {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        #ty {
+            width: 100%;
+            
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        #uploadimg {
+            margin-bottom: 20px;
+        }
+
+        #fujian, #upload {
+            margin-right: 10px;
+        }
+
+        #img {
+            display: block;
+            margin: 10px auto;
+        }
+
+        #container_flash_upload {
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+
+        .btn-primary {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        #btn_save {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer3 outer4 outer6">
+        <div class="list06">
+            <div class="list06left list06left">
+                <h4 class="h4">
+                    个人中心&nbsp;&nbsp;admin
+                </h4>
+            </div>
+            <div class="list06right list06right licon"id="nowposition">
+                <span class="active">当前位置：首页 > 管理员中心</span>
+            </div>
+        </div>
+
+        <div class="up" id="publish">
+            文章标题：<br />
+            <input id="title" type="text" /><br />
+            文章内容：<br />
+            <textarea id="content"></textarea><br />
+            文章类型选择：<br />
+            <select id="ty" value="请选择文章类型"><option value="新闻中心">新闻中心</option><option value="文艺文学">文艺文学</option><option value="文章热点">文章热点</option></select><br />
+            <!--<input id="ty" type="text" />-->
+            <div id="uploadimg">
+                图片上传:
+                <input type="file" id="fujian" accept="imge/*" /><button id="upload">上传图片</button>
+                <!--<input type="button" id="upload" value="上传图片" />-->
+                <img src="" style="width:200px;" id="img" /><br />
+            </div>
+            <br />
+            <!--附件上传-->
+            <div id="container_flash_upload" style="width:100%;">
+                <div id="flash_uploader">
+                    <a id="pickfiles" style="text-decoration:none" class="btn btn-primary"><i class="icon-paper-clip"></i>添加附件</a>
+                    <p style="color:red;">(提示：文件名中不得包含非法字符\/:*?"<>|等)</p>
+                </div>
+                <!--进度条-->
+                <div id="progress_info" style="display:none;">
+                    <div id="progress_info_filename">
+                    </div>
+                    <div id="progress_info_data" style="width:300px;" class="progress" data-percent="0%">
+                        <div id="progress_info_bar" class="progress-bar" style="width:0%;">
+                        </div>
+                    </div>
+                </div>
+                <!--客户端完成附件信息-->
+                <div id="affixList_info">
+                    <i class="icon-info-sign green"></i>目前暂无附件
+                </div>
+                <div class="col-sm-12">
+                    <table id="div_affixList" width="100%">
+                    </table>
+                </div>
+                <br />
+                <button id="btn_save">发布文章</button><br />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
